@@ -5,6 +5,7 @@ import Desk from '../assets/images/desk.png';
 import Client from '../assets/images/customer.png';
 import Schedule from '../assets/images/schedule.png';
 import Pay from '../assets/images/payment-method.png';
+import Message from '../assets/images/message.png';
 import "../styles/sidebar.css";
 
 function SideBar() {
@@ -27,7 +28,7 @@ function SideBar() {
           </Link>
         </div>
         <div className="menu-text">
-          <Link className="text-blck">
+          <Link to={'/workspace'} className="text-blck">
             <img className='logo-blck' src={Desk} alt/>
             <h3>Workspace</h3>
           </Link>
@@ -48,7 +49,7 @@ function SideBar() {
             <h3>Task</h3>
           </Link>
           <Link className="text-blck">
-          <img className='logo-blck' src={Client} alt/>
+          <img className='logo-blck' src={Message} alt/>
             <h3>Messages</h3>
           </Link>
         </div>

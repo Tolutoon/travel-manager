@@ -6,7 +6,7 @@ function Login() {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/dashboard");
+    navigate("/workspace");
   }
 
   return (

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../styles/workspace.css';
 
 function Workspace() {
   return (
-    <div>Workspace</div>
+    <div className='work-container'>Workspace</div>
   )
 }
 
