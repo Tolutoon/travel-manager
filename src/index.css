@@ -1,18 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.backImg {
-  background-image: url('../src/assets/images/backImagee.png');
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
+body {
+  font-family: 'Raleway', sans-serif;
 }
+
 
 html {
   scrollbar-width: none;
@@ -20,8 +16,15 @@ html {
 
 input {
   width: 384px;
-height: 45px;
+height: 35px;
 border: none;
 border: 1px solid #B6B6B6;
 background: transparent;
+border-radius: 8px;
+font-size: 12px;
+color: gray;
+}
+
+h1 {
+  color: rgb(24, 24, 24);
 }
