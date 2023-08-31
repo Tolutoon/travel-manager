@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Desk from '../assets/images/desk.png';
 import Client from '../assets/images/customer.png';
 import Schedule from '../assets/images/schedule.png';
+import Pay from '../assets/images/payment-method.png';
 import "../styles/sidebar.css";
 
 function SideBar() {
@@ -26,30 +27,30 @@ function SideBar() {
           </Link>
         </div>
         <div className="menu-text">
-          <div className="text-blck">
+          <Link className="text-blck">
             <img className='logo-blck' src={Desk} alt/>
             <h3>Workspace</h3>
-          </div>
-          <div className="text-blck">
+          </Link>
+          <Link className="text-blck">
           <img className='logo-blck' src={Client} alt/>
             <h3>Client</h3>
-          </div>
-          <div className="text-blck">
+          </Link>
+          <Link className="text-blck">
           <img className='logo-blck' src={Schedule} alt/>
             <h3>Appointment</h3>
-          </div>
-          <div className="text-blck">
-          <img className='logo-blck' src={Client} alt/>
+          </Link>
+          <Link className="text-blck">
+          <img className='logo-blck' src={Pay} alt/>
             <h3>Payment</h3>
-          </div>
-          <div className="text-blck">
+          </Link>
+          <Link className="text-blck">
           <img className='logo-blck' src={Client} alt/>
             <h3>Task</h3>
-          </div>
-          <div className="text-blck">
+          </Link>
+          <Link className="text-blck">
           <img className='logo-blck' src={Client} alt/>
             <h3>Messages</h3>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
