@@ -35,4 +35,16 @@ color: white;
 font-size: 12px;
 border: none;
 cursor: pointer;
+&:hover {
+    animation: btn-push 0.4s linear 1
+}
+}
+
+@keyframes btn-push {
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

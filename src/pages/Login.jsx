@@ -1,8 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/login.css";
-import backImg from "../assets/images/backImagee.png";
+
 
 function Login() {
+
+    const navigate = useNavigate();
+
+    function handleClick () {
+        navigate('/dashboard')
+    }
+
   return (
     <>
       <div className="backImg">
@@ -16,7 +24,7 @@ function Login() {
                 <input type="text" name="email"/>
                 <p>Password</p>
                 <input className='inputBox' type="password" name="password"/>
-                <button className="btn">Login</button>
+                <button onClick={handleClick} className="btn">Login</button>
             </form>
         </div>
       </div>
