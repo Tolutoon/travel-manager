@@ -1,4 +1,4 @@
-This project was bootstrapped with [React](https://github.com/facebook/create-react-app) & [Vite].
+This project was bootstrapped with [React](https://github.com/facebook/create-react-app) & [Vite](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
