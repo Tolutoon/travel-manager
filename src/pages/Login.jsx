@@ -10,12 +10,13 @@ function Login() {
             <form className="container">
                 <div className="loginText">
                 <h1>Login</h1>
-                <p>Log in to your account</p>
+                <p>Login to your account</p>
                 </div>
                 <p>Email</p>
                 <input type="text" name="email"/>
-                <input type="password" name="password"/>
-                <button>Login</button>
+                <p>Password</p>
+                <input className='inputBox' type="password" name="password"/>
+                <button className="btn">Login</button>
             </form>
         </div>
       </div>

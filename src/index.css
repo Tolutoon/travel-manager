@@ -21,4 +21,7 @@ html {
 input {
   width: 384px;
 height: 45px;
+border: none;
+border: 1px solid #B6B6B6;
+background: transparent;
 }
