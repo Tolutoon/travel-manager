@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/dashboard.css';
 import Sidebar from '../components/SideBar'
 
 function Dashboard() {
   return (
-    <div>
+    <div className='dashboard'>
       <Sidebar />
     </div>
   )

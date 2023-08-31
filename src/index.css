@@ -25,6 +25,11 @@ font-size: 12px;
 color: gray;
 }
 
-h1 {
-  color: rgb(24, 24, 24);
+h1, h3 {
+  color: rgb(70, 70, 70);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
 }
