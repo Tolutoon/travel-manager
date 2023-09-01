@@ -38,3 +38,15 @@ text-decoration: none;
     width: 25px;
 height: 23px;
 }
+
+.active {
+    color: #DCA940;
+}
+
+.active-appoint {
+    color: #DCA940;
+}
+
+.active {
+    color: #DCA940; 
+}

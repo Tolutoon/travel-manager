@@ -1,0 +1,7 @@
+.class-container {
+    width: 90vw;
+    height: 83vh;
+    flex-shrink: 0;
+    margin-left: 284px;
+    background: #EEE;
+}
