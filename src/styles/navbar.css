@@ -1,11 +1,21 @@
 .navbar {
 display: flex;
-width: 1055px;
+width: auto;
 height: 8vh;
-padding: 28px 95px 27px 906px;
+padding: 16px 75px 16px 206px;
 justify-content: flex-end;
 align-items: center;
 flex-shrink: 0;
 background: #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .img-blck {
+    position: absolute;
+}
+
+
+.navbar .img-blck .avi {
+    position: relative;
+    margin-right: 20px
 }

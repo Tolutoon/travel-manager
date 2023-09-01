@@ -1,8 +1,15 @@
 .work-container {
-    width: 90vw;
-height: 83vh;
+    width: auto;
+height: auto;
 flex-shrink: 0;
 margin-left: 284px;
+padding: 64px;
 background: #EEE;
 
+}
+
+.work-container .work-text{
+display: flex;
+flex-direction: column;
+gap: 8px;
 }
