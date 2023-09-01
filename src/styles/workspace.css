@@ -4,7 +4,7 @@ height: auto;
 flex-shrink: 0;
 margin-left: 284px;
 padding: 64px;
-background: #EEE;
+background: #f2f2f2;
 
 }
 
@@ -12,4 +12,34 @@ background: #EEE;
 display: flex;
 flex-direction: column;
 gap: 8px;
+}
+
+.box-model{
+    margin-top: 32px;
+}
+
+.box-model .top-box {
+    width: 406px;
+    height: 8px;
+    background-color: #DCA940;
+}
+
+.box-model .sec-box{
+    width: 350px;
+    padding: 8px 28px;
+    background-color: red;
+    color: rgb(56, 56, 56);
+    background-color: #ffde9b63;
+}
+
+.pri-box {
+    width: 350px;
+    padding: 64px 28px;
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
 }

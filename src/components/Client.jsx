@@ -3,7 +3,9 @@ import '../styles/client.css'
 
 function Client() {
   return (
-    <div className='class-container'>Client</div>
+    <div className='class-container'>
+        <h3>Clients</h3>
+    </div>
   )
 }
 
