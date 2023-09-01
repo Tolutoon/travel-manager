@@ -1,8 +1,56 @@
 .class-container {
     width: auto;
-height: auto;
+    height: auto;
     flex-shrink: 0;
     margin-left: 284px;
     padding: 64px;
     background: #EEE;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 16px;
+  font-size: 16px;
+}
+
+th {
+  background-color: #ffe5b0ba;
+  padding: 18px;
+}
+
+td {
+  background-color: white;
+}
+
+.class-container .client-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-box {
+    padding: 0px 8px;
+    width: 65%;
+}
+
+.client-btn {
+    padding: 12px 36px;
+    margin-left: 20px;
+    background-color: #DCA940;
+    font-size: 12px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.table-box {
+    margin-top: 16px
 }
